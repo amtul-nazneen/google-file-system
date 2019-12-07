@@ -1,0 +1,55 @@
+{
+	"nodeDetails": {
+		
+		"metaServer": {
+				"name" : "dc01.utdallas.edu",
+				"port": 5055,
+				"rootDir" : "files/meta/"
+			},
+			
+		"clientServer": [
+			{
+				"id" : 1,
+				"name" : "dc02.utdallas.edu",
+				"port" : 5056
+			},
+			{
+				"id" : 2,
+				"name" : "dc03.utdallas.edu",
+				"port" : 5057
+			}
+		],
+		
+		"chunkServerDetails": {
+			"rootDir": "files/chunk/",
+			"nodes": [
+				{	
+					"id" : 1,
+					"name" : "dc04.utdallas.edu",
+					"port" : 5058					
+				},
+				{
+					"id" : 2,
+					"name" : "dc05.utdallas.edu",
+					"port" : 5059
+					
+				},
+				{
+					"id" : 3,
+					"name" : "dc06.utdallas.edu",
+					"port" : 5060
+				},
+				{
+					"id" : 4,
+					"name" : "dc07.utdallas.edu",
+					"port" : 5061
+				},
+				{
+					"id": 5,
+					"name" : "dc08.utdallas.edu",
+					"port" : 5062
+				}
+			]
+		}
+	}
+}
